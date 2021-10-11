@@ -36,7 +36,7 @@
             <input class="input input--password" type="password" placeholder="Password" required>
             <input class="input input--first-name" type="text" placeholder="First name" required>
             <input class="input input--last-name" type="text" placeholder="Last name" required>
-            <label class="input__radio" for="female">
+            <label class="input__radio input__radio--female" for="female">
               <input class="input__radio--box" name="radiobutton" id="female" value="female" type="radio" required>
               <span class="input__radio--style"></span>&nbsp&nbsp&nbsp&nbsp&nbsp
               Female
@@ -47,21 +47,22 @@
               <span class="input__radio--style"></span>&nbsp&nbsp&nbsp&nbsp&nbsp
               Male
             </label>
-            <input class="input input--date" type="date" required>
-            <input class="input input--date-placeholder" placeholder="Date of Birth" type="text">
-            <div class="list-wrapper ">
+           
+            <input class="input input--date" type="date" placeholder="Date of Birth" required>           
+            <div class="list__wrapper">
               <span class="input--list-arrow"></span>
-            </div>
-            <input class="input input--list" list="countries" value="" type="text" placeholder="Country" required>
+              <input class="input input--list" list="countries" value="" type="text" placeholder="Country" required>
 
-            <datalist id="countries" class="input input--list-countries">
-              <option>Latvia
-              <option>Sweden
-              <option>Norway
-              <option>Finland
-              <option>Germany
-              
-            </datalist>
+              <datalist id="countries" class="input input--list-countries">
+                <option>Latvia
+                <option>Sweden
+                <option>Norway
+                <option>Finland
+                <option>Germany
+                
+              </datalist>
+            </div>
+           
             <div class="checkbox">
               <label class="checkbox checkbox--label" for="news">
                 <input class="checkbox checkbox--box" id="news" name="news" type="checkbox" required>
