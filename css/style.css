@@ -41,7 +41,7 @@ body {
 }
 
 .button {
-  width: 375px;
+  width: 100%;
   color: #fff;
   display: flex;
   align-items: center;
