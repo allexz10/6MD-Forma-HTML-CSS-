@@ -53,6 +53,7 @@ body {
   border: none;
   font-family: "Inter", sans-serif;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .button__wrapper {
